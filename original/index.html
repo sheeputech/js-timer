@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>02:00 - Pitchtimer</title>
+
+    <meta name="Description" content="PitchTimer is a simple countdown timer.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="title" content="PitchTimer">
+    <link rel="stylesheet" href="./timer.css" type="text/css" media="screen" title="Normal">
+</head>
+
+<body>
+    <div id="textWrapper">
+    <h2>02:00</h2>
+    </div>
+
+    <audio id="alarm" style="display:none;" preload="auto" autobuffer="">
+    <source src="./timeUp.mp3" type="audio/mpeg">
+    </audio>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <script type="text/javascript">
+    Pitch.defaultText = "Pitchtimer";
+    Pitch.startTime = 0;
+    Pitch.endTime = 30;
+    Pitch.parseError = "none";
+    Pitch.volume = 1;
+    Pitch.canAlert = false;
+    </script>
+    <script src="./Pitch3.js" type="text/javascript"></script>
+    <script src="./Time.js" type="text/javascript"></script>
+
+</body>
+</html>

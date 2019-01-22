@@ -1,0 +1,16 @@
+{
+  "name": "20190120-sansan-exam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "*",
+    "morgan": "*"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "node public/test/LocalSpec.js"
+  },
+  "author": "Kazumasa Hirata <sheepu.tech@gmail.com>",
+  "license": "ISC"
+}

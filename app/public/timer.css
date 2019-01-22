@@ -1,0 +1,48 @@
+/* Import Web Fonts */
+@import url('https://fonts.googleapis.com/css?family=Overpass');
+
+body {
+	background-color: #eee;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	color: #000;
+}
+
+h3 {
+	color: #000;
+}
+
+#textWrapper {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: stretch;
+	align-items: stretch;
+	text-align: center;
+}
+
+#progressText {
+	display: block;
+	font-family: 'Overpass', sans-serif;
+	font-size: 40px;
+}
+
+#restartButton {
+	display: block;
+	padding: 8px 16px;
+	margin: auto;
+	border: 2px solid #293b6a;
+	border-radius: 4px;
+	text-decoration: none;
+	font-family: 'Overpass', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	transition: .3s;
+}
+#restartButton:hover {
+	border-color: #293b6a;
+	background-color: #293b6a;
+	color: #FFF;
+}
